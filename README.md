@@ -50,3 +50,35 @@ This project showed me that security monitoring depends on proper setup, endpoin
 - Test additional alert scenarios
 - Expand log analysis
 - Integrate more blue-team workflows
+
+## Screenshots
+
+### Endpoint Monitoring
+
+Shows the Ubuntu endpoint registered and monitored by Wazuh.
+
+![Endpoint Summary](images/wazuh-endpoint-summary.jpg)
+
+---
+
+### Threat Hunting Dashboard
+
+Overview of alerts and security events detected in the environment.
+
+![Threat Hunting Dashboard](images/wazuh-threat-hunting-dashboard.jpg)
+
+---
+
+### Alert Overview
+
+Initial alerts and authentication activity generated during testing.
+
+![Alert Overview](images/wazuh-alert-overview.jpg)
+
+---
+
+### Dashboard Activity
+
+Expanded alert activity after additional lab activity was generated.
+
+![Dashboard Activity](images/wazuh-dash-activity.jpg)
