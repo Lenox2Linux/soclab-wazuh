@@ -1,7 +1,7 @@
 # SOC Home Lab with Wazuh
 
 ## Project Summary
-This project documents my beginner SOC home lab using Wazuh, Ubuntu Server, Docker, and Kali Linux. The purpose of the lab is to gain hands-on experience with security monitoring, log visibility, and alert investigation in a controlled environment.
+This project documents my beginner SOC home lab using Wazuh, Ubuntu Server, Docker, and Kali Linux. The purpose of the lab is to gain hands-on experience with security monitoring, log visibility, and alert investigation in a controlled environment. This lab also served as the foundation for a follow-up detection project involving attacker simulation and Wazuh alert analysis.
 
 ## Objective
 I built this project to better understand how security analysts monitor systems and investigate activity using a SIEM platform.
@@ -82,3 +82,14 @@ Initial alerts and authentication activity generated during testing.
 Expanded alert activity after additional lab activity was generated.
 
 ![Dashboard Activity](images/wazuh-dash-activity.jpg)
+
+---
+
+## Related Detection Project
+
+This SOC lab environment was later used to perform a follow-up security detection exercise involving reconnaissance, SSH access attempts, and Wazuh alert investigation.
+
+**SOC Detection Lab: Nmap Scan and Wazuh Alert Investigation**  
+https://github.com/Lenox2Linux/soc-detect-nmap-wazuh
+
+This follow-up project demonstrates how the lab environment can be used not only for setup and monitoring, but also for simulating activity and reviewing detection results through the Wazuh dashboard.
